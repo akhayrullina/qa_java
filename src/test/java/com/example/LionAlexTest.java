@@ -5,7 +5,6 @@ import java.util.List;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class LionAlexTest {
-
     @Test
     void getKittens() throws Exception {
         LionAlex lionAlex = new LionAlex();

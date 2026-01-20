@@ -3,8 +3,9 @@ package com.example;
 import java.util.List;
 
 public class LionAlex extends Lion {
+
     protected LionAlex() throws Exception {
-        super("Самец");
+        super("Самец", null);
     }
 
     @Override
