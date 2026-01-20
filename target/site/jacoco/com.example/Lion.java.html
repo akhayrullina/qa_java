@@ -4,11 +4,11 @@ import java.util.List;
 
 public class Lion {
 
-    private Predator predator;
+    private Feline feline;
     private boolean hasMane;
 
 <span class="fc" id="L10">    protected Lion(String sex, Feline feline) throws Exception {</span>
-<span class="fc" id="L11">        this.predator = feline;</span>
+<span class="fc" id="L11">        this.feline = feline;</span>
 
 <span class="fc bfc" id="L13" title="All 2 branches covered.">        if (&quot;Самец&quot;.equals(sex)) {</span>
 <span class="fc" id="L14">            hasMane = true;</span>
@@ -21,7 +21,7 @@ public class Lion {
 
 
     public int getKittens() {
-<span class="fc" id="L24">        return predator.getKittens();</span>
+<span class="fc" id="L24">        return feline.getKittens();</span>
     }
 
     public boolean doesHaveMane() {
@@ -29,7 +29,7 @@ public class Lion {
     }
 
     public List&lt;String&gt; getFood() throws Exception {
-<span class="fc" id="L32">        return predator.eatMeat();</span>
+<span class="fc" id="L32">        return feline.eatMeat();</span>
     }
 }
 </pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.14.202510111229</span></div></body></html>
